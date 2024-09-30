@@ -1,0 +1,9 @@
+{
+    "accessToken": "abcdef123456",
+    "refreshToken": "abcdef123456",
+    "user": {
+        "id": 1,
+        "name": "John Doe",
+        "email": "a@a.com"
+    }
+}

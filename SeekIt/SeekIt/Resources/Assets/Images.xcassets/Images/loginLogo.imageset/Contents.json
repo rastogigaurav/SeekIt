@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "2620504_employee_job_rotation_seeker_unemployee_icon (3) 1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "2620504_employee_job_rotation_seeker_unemployee_icon (3).png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "2620504_employee_job_rotation_seeker_unemployee_icon (4).png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

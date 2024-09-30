@@ -2,6 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Config</key>
+	<dict>
+		<key>BaseURL</key>
+		<string>$(BASE_URL)</string>
+		<key>AppEnvironment</key>
+		<string>$(APP_ENVIRONMENT)</string>
+	</dict>
+	<key>CFBundleShortVersionString</key>
+	<string>$(APP_BUNDLE_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(APP_BUILD_NUMBER)</string>
+	<key>CFBundleName</key>
+	<string>$(APP_BUNDLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -16,7 +31,7 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
+					<string>Onboarding</string>
 				</dict>
 			</array>
 		</dict>
